@@ -10,6 +10,11 @@ rez_set_archive(
     https://github.com/llvm/llvm-project/archive/llvmorg-${REZ_BUILD_PROJECT_VERSION}.tar.gz
 )
 
+message(STATUS https://github.com/llvm/llvm-project/archive/llvmorg-${REZ_BUILD_PROJECT_VERSION}.tar.gz)
+message(STATUS https://github.com/llvm/llvm-project/archive/llvmorg-${REZ_BUILD_PROJECT_VERSION}.tar.gz)
+message(STATUS https://github.com/llvm/llvm-project/archive/llvmorg-${REZ_BUILD_PROJECT_VERSION}.tar.gz)
+
+
 # The environment variable REZ_TMP_PATH is meant to point to a location such as "/tmp/rez".
 set(EXTRACT_DIR $ENV{REZ_TMP_PATH}/llvm/${REZ_BUILD_PROJECT_VERSION})
 set(BUILD_DIR ${EXTRACT_DIR}/build)

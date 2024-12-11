@@ -1,6 +1,6 @@
 name = "llvm"
 
-version = "8.0.1"
+version = "18.1.1"
 
 authors = [
     "Vikram Adve",
@@ -17,13 +17,13 @@ description = \
 
 requires = [
     "cmake-3+",
-    "gcc-6+",
-    "python-2.7+<3",
+    "gcc-11",
+    "python-3.9.16",
     "zlib-1.2"
 ]
 
 variants = [
-    ["platform-linux"]
+    ["platform-linux","arch-x86_64"]
 ]
 
 tools = [

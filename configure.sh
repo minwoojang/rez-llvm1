@@ -43,7 +43,8 @@ cmake \
     -DCMAKE_INSTALL_PREFIX=${INSTALL_PATH} \
     -DCMAKE_C_FLAGS="-fPIC" \
     -DCMAKE_CXX_FLAGS="-fPIC" \
-    -DLLVM_ENABLE_PROJECTS="clang"
+    -DLLVM_ENABLE_PROJECTS="clang" \
+    -DCMAKE_BUILD_TYPE=Release
 
 echo -e "\n"
 echo -e "[CONFIGURE] Finished configuring LLVM-${LLVM_VERSION}!"
